@@ -1,0 +1,63 @@
+Improve the application’s real-time functionality and overall user experience by implementing the following features and integrations:
+
+Localization & Currency:
+
+Adapt all content and services to reflect Indian standards, including language, time zones, and default regional formats.
+
+Change the currency format throughout the application to Indian Rupees (₹).
+
+Ensure all services, booking options, and suggestions are based on locations across India.
+
+Payment Gateway Integration (Server-side):
+
+Integrate a secure, real-time payment system allowing users to choose from common Indian payment methods such as UPI, debit/credit cards, net banking, and mobile wallets.
+
+Ensure that all successful transactions are automatically deposited into the UPI ID 809674639-2@ybl.
+
+On the server-side:
+
+Generate a unique payment session or order.
+
+Await server-to-server webhook callback from the payment gateway after payment is made.
+
+Verify the payment status and transaction signature.
+
+Upon successful verification, mark the order/booking as "paid" in the system.
+
+Automated Email Notification:
+
+After a successful payment and booking, automatically send a confirmation email to the user.
+
+This email must include:
+
+Booking details (ID, date, location)
+
+Payment amount and mode
+
+Transaction ID and status
+
+Contact support info (if applicable)
+
+User-Selectable Payment Methods:
+
+Allow users to select their preferred method of payment during checkout (e.g., UPI, wallet, card).
+
+Clearly display the available options with proper icons and input fields.
+
+Real-Time Feedback & Accessibility Improvements:
+
+Improve the interface to be responsive, accessible, and intuitive for all users, including support for screen readers and mobile accessibility.
+
+Provide real-time feedback and status indicators during booking, form submission, and payment (e.g., loading indicators, error/success messages).
+
+Data Validation and Error Handling:
+
+Ensure robust input validation for all forms, especially during login, destination selection, and payment.
+
+Address existing bugs where user inputs (like destinations or names) are not properly rendered or processed.
+
+Reliability Enhancements:
+
+Make sure that all modules handle network interruptions gracefully and resume where possible.
+
+Log critical transactions and actions server-side for better monitoring and debugging.

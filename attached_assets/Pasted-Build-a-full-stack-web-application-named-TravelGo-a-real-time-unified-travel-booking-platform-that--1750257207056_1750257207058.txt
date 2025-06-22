@@ -1,0 +1,113 @@
+Build a full-stack web application named TravelGo, a real-time unified travel booking platform that enables users to search, compare, and book various travel services such as buses and hotels. This application should offer:
+
+A Python-based backend (FastAPI or Flask)
+
+MySQL as the relational database layer
+
+A responsive frontend of your choice (React, Angular, or simple HTML/CSS/JS)
+
+Cloud-ready architecture (AWS-compatible), but deployment on local/dev environment
+
+🛠️ System Requirements & Functionalities
+✅ Core Functionalities (MVP):
+User Authentication:
+
+User registration & secure login
+
+Session/token-based authentication
+
+Role-based access if needed (user vs admin)
+
+Service Search & Display:
+
+View available travel services (initially: buses and hotels)
+
+Filter by location, price, availability
+
+Display detailed information about services
+
+Booking Management:
+
+Book a selected travel service
+
+View upcoming & past bookings
+
+Cancel an existing booking
+
+Real-Time Availability:
+
+Ensure bookings reflect current availability
+
+Handle concurrency using transaction locks (e.g., during double booking attempts)
+
+User Profile & History:
+
+View personal details
+
+View history of all bookings and status
+
+Validation & Error Handling:
+
+Form validations on both frontend and backend
+
+Proper error handling (e.g., service not available, login failure)
+
+🧰 Tech Stack Constraints
+Backend: Python (FastAPI preferred for async support, or Flask)
+
+Database: MySQL (structured data for bookings, users, services)
+
+Frontend: Any modern JS framework (React recommended), or simple HTML+Bootstrap
+
+Deployment: Must be cloud-compatible (e.g., works with EC2 & RDS), but keep local deployment only
+
+💡 Extended Features (Optional / Future Scope)
+Support for additional travel services (flights, trains)
+
+Advanced search filters (ratings, distance, amenities)
+
+Integrated payment gateway
+
+Dynamic pricing engine (based on demand or season)
+
+Admin panel for managing services and bookings
+
+Itinerary planner for full trip management
+
+Mobile-friendly responsive UI or mobile app
+
+📊 Business & Social Impact
+Reduces friction in travel planning by consolidating services
+
+Improves conversion rates for travel vendors by offering one-stop booking
+
+Enables trend tracking, business analytics, and promotional targeting
+
+Helps travelers minimize time, errors, and stress in planning
+
+🚧 Key Design Challenges
+Real-time consistency of availability (avoid overbooking)
+
+Handling concurrent bookings and payment transactions
+
+Scalable architecture for future cloud migration
+
+Clean and intuitive UI/UX to appeal to non-technical users
+
+📌 Deliverables
+Source code (frontend + backend)
+
+MySQL schema with sample seed data
+
+API documentation (can be Swagger UI if FastAPI)
+
+README with:
+
+Local setup instructions
+
+Database migration/setup
+
+API routes and test data
+
+(Optional) Screenshots / demo video
+

@@ -1,0 +1,57 @@
+You are an expert full-stack developer.
+I have an application called TravelGo, currently built using Express.js with TypeScript (a Node.js framework) for the backend. I want to rewrite the entire backend using Python only, preferably using a modern Python web framework like FastAPI or Flask, while preserving all core functionalities of the original system.
+
+Here are the specific requirements for the rewritten backend:
+
+✅ Replicate all current routes, middleware, and API logic from the original Express.js application using Python.
+
+✅ The application must support real-time travel bookings for Indian locations only (buses, hotels).
+
+✅ It must include user authentication, admin panel logic, search functionality, availability filtering, and booking confirmation.
+
+✅ Must support email notifications on successful booking (use SMTP or any Python mail library like smtplib or FastAPI Background Tasks).
+
+✅ Implement payment gateway integration (placeholder logic is fine, but structure should allow real payment APIs like Razorpay/Paytm in India).
+
+✅ Maintain TypeScript-like typing and structure by using Pydantic models in FastAPI or Marshmallow in Flask.
+
+✅ Use PostgreSQL or MySQL as the database backend, and use an ORM like SQLAlchemy or Tortoise ORM for Python.
+
+✅ Must support real-time input validation, error handling, and secure API routes (JWT or OAuth2).
+
+✅ Add support for Indian city-based location filtering (e.g., filter hotels by city like Hyderabad, Bengaluru, Delhi).
+
+✅ Ensure the API is fully documented using Swagger/OpenAPI (built-in in FastAPI).
+
+Please generate a complete scalable project structure using Python and show code snippets for:
+
+Routes (e.g., /api/hotels, /api/bookings)
+
+Models (Pydantic or SQLAlchemy)
+
+Email notification setup
+
+Integration of Indian payment gateway placeholders
+
+Booking confirmation logic
+
+Location-based filtering (only Indian cities)
+
+User & admin authentication using JWT
+
+Ensure it is clean, modular, and production-ready. Keep the frontend untouched (assume it consumes the same API routes as the old Node.js backend).
+
+✅ Recommended Stack for Python Conversion:
+Backend framework: FastAPI (preferred) or Flask
+
+Database: PostgreSQL or MySQL
+
+ORM: SQLAlchemy or Tortoise
+
+Authentication: JWT (using python-jose or fastapi-jwt-auth)
+
+Email: smtplib / FastAPI Background Tasks
+
+Payment Integration (India-ready): Razorpay/Paytm SDK (mock integration if needed)
+
+API Docs: Auto with Swagger (FastAPI)
