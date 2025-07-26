@@ -18,8 +18,8 @@ region = 'us-east-1'  # Update with your region
 dynamodb = boto3.resource('dynamodb', region_name=region)
 sns = boto3.client('sns', region_name=region)
 
-users_table = dynamodb.Table('Users')
-bookings_table = dynamodb.Table('Bookings')
+USERS_TABLE = dynamodb.Table('Users')
+BOOKING_TABLE = dynamodb.Table('Bookings')
 
 SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:851725243544:travelgo'  # Replace with your actual topic ARN
 
