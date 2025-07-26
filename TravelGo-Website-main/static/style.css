@@ -44,3 +44,14 @@ input:focus, textarea:focus, select:focus {
 button, .btn, .rounded-lg, .rounded-xl, .rounded-2xl, .rounded-3xl {
     border-radius: 0.75rem !important;
 }
+
+body {
+    background-color: #001f3f; /* Navy blue */
+    color: #ffffff; /* White text for contrast */
+}
+
+/* Update other elements as needed */
+.header, .navbar, .footer {
+    background-color: #001f3f;
+    color: #ffffff;
+}
