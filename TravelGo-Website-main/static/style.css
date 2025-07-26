@@ -1,0 +1,46 @@
+/* Green theme for TravelGo */
+
+body, .bg-white, .bg-gray-100, .bg-gradient-to-br, .bg-blue-50, .bg-blue-100, .bg-blue-600, .bg-blue-700, .bg-blue-400, .bg-blue-200, .bg-blue-900, .bg-blue-500, .bg-blue-700\/70, .bg-blue-400\/40, .bg-blue-200\/60 {
+    background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%) !important;
+    background-color: #56ab2f !important;
+}
+
+.text-blue-600, .text-blue-700, .text-blue-900, .text-blue-500, .text-blue-400, .text-blue-100, .text-blue-200, .text-blue-50, .text-blue-800, .text-blue-300, .text-blue-50, .text-blue-100, .text-blue-700\/70, .text-blue-400\/40, .text-blue-200\/60 {
+    color: #218838 !important;
+}
+
+.bg-blue-600, .bg-blue-700, .bg-blue-900, .bg-blue-500, .bg-blue-400, .bg-blue-100, .bg-blue-200, .bg-blue-50, .hover\:bg-blue-700:hover, .hover\:bg-blue-100:hover, .hover\:bg-blue-50:hover, .hover\:bg-blue-400:hover, .hover\:bg-blue-600:hover {
+    background-color: #218838 !important;
+}
+
+.border-blue-100, .border-blue-200, .border-blue-400, .border-blue-600, .border-blue-700 {
+    border-color: #218838 !important;
+}
+
+.btn-success, .bg-green-600, .text-green-600, .text-green-500, .bg-green-100, .hover\:bg-green-700:hover {
+    background-color: #218838 !important;
+    color: #fff !important;
+}
+
+.btn-secondary {
+    background-color: #e2fbe2 !important;
+    color: #218838 !important;
+    border-color: #218838 !important;
+}
+
+a, .text-blue-600, .hover\:text-blue-700:hover {
+    color: #218838 !important;
+}
+
+.shadow, .shadow-lg, .shadow-xl, .shadow-2xl, .shadow-md, .shadow-sm {
+    box-shadow: 0 4px 24px 0 rgba(33, 136, 56, 0.15) !important;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #218838 !important;
+    box-shadow: 0 0 0 2px #a8e06333 !important;
+}
+
+button, .btn, .rounded-lg, .rounded-xl, .rounded-2xl, .rounded-3xl {
+    border-radius: 0.75rem !important;
+}
