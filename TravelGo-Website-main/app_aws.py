@@ -21,7 +21,7 @@ sns = boto3.client('sns', region_name=region)
 users_table = dynamodb.Table('Users')
 bookings_table = dynamodb.Table('Bookings')
 
-SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:337909780815:TravelGo'  # Replace with your actual topic ARN
+SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:851725243544:travelgo'  # Replace with your actual topic ARN
 
 # Helper Functions
 def get_user_by_email(email):
